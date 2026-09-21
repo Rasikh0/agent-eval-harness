@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: codeagenteval
+Version: 0.1.0
+Summary: Frontier coding-agent evaluation harness
+Requires-Python: >=3.11
+Requires-Dist: anthropic
+Requires-Dist: openai
+Requires-Dist: google-genai
+Requires-Dist: python-dotenv
+Requires-Dist: pytest
+Requires-Dist: docker
+Requires-Dist: pyyaml
+Requires-Dist: rich

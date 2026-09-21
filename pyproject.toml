@@ -1,0 +1,22 @@
+[project]
+name = "codeagenteval"
+version = "0.1.0"
+description = "Frontier coding-agent evaluation harness"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic",
+    "openai",
+    "google-genai",
+    "python-dotenv",
+    "pytest",
+    "docker",
+    "pyyaml",
+    "rich",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["harness", "grading"]
